@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "paths": {
+      "claude-code": ["./types/claude-code.d.ts"],
+      "claude-code/testing": ["./types/claude-code-testing.d.ts"],
+      "*": ["./*"]
+    }
+  },
+  "include": ["tests/**/*.ts", "types/**/*.d.ts"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cache-clock",
+  "version": "1.0.0",
+  "description": "Shows prompt-cache warmth, TTL countdown, and reuse stats in the band above the prompt",
+  "author": { "name": "cache-clock" },
+  "userConfig": {
+    "cacheMinutes": {
+      "title": "Cache TTL in minutes",
+      "description": "Match your Claude API cache setting: 5 or 60 (default 60)",
+      "type": "string",
+      "default": "60"
+    }
+  }
+}
